@@ -1,0 +1,66 @@
+#burrito{
+    background-color: lightgray;
+}
+
+
+button{
+    text-align: center;
+    position: sticky;
+    border-radius: 5px;
+    font-size:20px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    text-align: center;
+  }
+  
+  li {
+    /* float: left; */
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+  }
+  
+  li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #ddd;
+  }
+  
+  li a.active {
+    color: white;
+    background-color: #04AA6D;
+  }
+
+  header{
+      text-align: center;
+  }
+
+  #burritos{
+      /* padding: 50pxpx; */
+      margin: auto;
+      max-width: 500px;
+      max-height: 250px;
+      min-height: 500px;
+      text-align: center;
+      position: relative;
+      top: 150px;
+  }
+
+  h4{
+      padding: 35px;
+      font-size: 25px;
+  }
